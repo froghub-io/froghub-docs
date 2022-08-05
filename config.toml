@@ -53,7 +53,7 @@ link = "https://github.com/froghub-io"
 languageName = "English"
 languageCode = "en-us"
 weight = 1
-copyright = "Copyright &copy; 2022 zhoghub All rights reserved."
+copyright = "Copyright &copy; 2022 FrogHub All rights reserved."
 
 # banner
 [Languages.en.params.banner]
@@ -67,6 +67,7 @@ placeholder = "Filter to find guides for FrogHub products, services, and APIs."
 enable = true
 title = "Didn't find an answer to your question?"
 content = "Please contact us in the following ways, we will answer the postage price for you as soon as possible."
+bg_image = "images/contactus.png"
 # call to action button
 [Languages.en.params.cta.button]
 enable = true
@@ -120,7 +121,7 @@ hasChildren = true
 languageName = "中文"
 languageCode = "zh_cn"
 weight = 2
-copyright = "Copyright &copy; 2022 zhoghub All rights reserved."
+copyright = "Copyright &copy; 2022 FrogHub All rights reserved."
 
 # banner
 [Languages.zh.params.banner]
@@ -134,6 +135,7 @@ placeholder = "进行过滤以查找 FrogHub 产品、服务和 API 的指南。
 enable = true
 title = "没有找到您的想要的答案？"
 content = "请通过以下方式联系到我们，我们将尽快邮价为您解答。"
+bg_image = "images/contactus.png"
 # call to action button
 [Languages.zh.params.cta.button]
 enable = true

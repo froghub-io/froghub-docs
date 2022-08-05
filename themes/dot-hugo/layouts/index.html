@@ -58,15 +58,17 @@
     {{ with .Site.Params.cta }}
       <!-- call to action -->
       <section>
-        <div class="container">
+        <div>
           <div class="row">
             <div class="col-12">
-              <div class="section px-3 bg-white shadow text-center">
-                <h2 class="mb-4">{{ .title | markdownify }}</h2>
-                <p class="mb-4">{{ .content | markdownify }}</p>
+              <div class="section px-3 bg-white shadow text-center"  data-background="{{ .bg_image | absURL }}">
+                <h2 class="mb-4 text-white">{{ .title | markdownify }}</h2>
+                <p class="mb-4 --text-color">{{ .content | markdownify }}</p>
                 {{ if .button.enable }}
                   {{ with .button }}
-                    <a href="{{ .link | relLangURL }}" class="btn btn-primary">{{ .label }}</a>
+                    <a href="{{ .link | relLangURL }}" class="btn btn-primary" 
+                      style="font-size: 20px;border-radius: 6px;background: linear-gradient(to right, #1C5DFF, #8742FF);">
+                    {{ .label }}</a>
                   {{ end }}
                 {{ end }}
               </div>
