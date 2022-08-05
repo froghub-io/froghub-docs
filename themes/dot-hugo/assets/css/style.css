@@ -179,6 +179,17 @@ select:focus {
   outline: 0;
 }
 
+.section-big {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+@media (max-width: 768px) {
+  .section-big {
+    padding-top: 80px;
+    padding-bottom: 60px;
+  }
+}
 .section {
   padding-top: 80px;
   padding-bottom: 80px;
@@ -724,9 +735,10 @@ tbody {
 .sidebar {
   background-color: var(--white-color);
   position: sticky;
-  top: 50px;
+  top: 0px;
   margin-bottom: 30px;
   padding: 40px 10px 20px 10px;
+  height: 100%;
 }
 
 .sidelist {
@@ -888,4 +900,23 @@ pre code::-webkit-scrollbar-thumb {
 
 .code-tabs .nav-tabs .nav-item.active .nav-link {
   color: var(--white-color);
+}
+
+.pb_button_white {
+  color: #000000 !important;
+  border-width: 0px !important;
+  border-color: rgba(0, 0, 0, 0);
+  border-radius: 6px;
+  font-weight: 700 !important;
+  background-color: #ffffff;
+  font-size: 20px;
+}
+
+.pb_button {
+  border-width: 0px !important;
+  border-color: rgba(0, 0, 0, 0);
+  border-radius: 6px;
+  font-weight: 700 !important;
+  background: linear-gradient(to right, #1C5DFF, #8742FF);
+  font-size: 20px;
 }
