@@ -19,7 +19,7 @@ unsafe = true
 # logo is for all page
 logo = "images/logo.png"
 # logo white is for homepage logo, you can use colorful logo too...
-logo_white = ""
+logo_white = "images/logo_white.png"
 # when logo is empty, it will shown your site title
 
 # OpenGraph / Twitter Card metadata
@@ -59,7 +59,7 @@ copyright = "Copyright &copy; 2022 FrogHub All rights reserved."
 [Languages.en.params.banner]
 title = "Support Center & Knowledge base"
 subtitle = "Find guides, code samples, architectural diagrams, best practices, tutorials, API references, and more to learn how to build on FrogHub."
-bg_image = "images/banner.jpg"
+bg_image = "images/banner.png"
 placeholder = "Filter to find guides for FrogHub products, services, and APIs."
 
 # call to action
@@ -127,7 +127,7 @@ copyright = "Copyright &copy; 2022 FrogHub All rights reserved."
 [Languages.zh.params.banner]
 title = "支持中心 & 知识库"
 subtitle = "查找指南、代码示例、架构图、最佳实践、教程、API 参考文档等，了解如何在 FrogHub 上构建应用。"
-bg_image = "images/banner.jpg"
+bg_image = "images/banner.png"
 placeholder = "进行过滤以查找 FrogHub 产品、服务和 API 的指南。"
 
 # call to action
