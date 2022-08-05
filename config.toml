@@ -1,10 +1,10 @@
 ################################# Default configuration ###################
 # provide your domain here
-baseURL = "https://demo.gethugothemes.com/dot/examplesite/"
+baseURL = "https://developers.froghub.io/"
 # theme
 theme = "dot-hugo"
 # site title
-title = "Dot"
+title = "FrogHub Docs"
 # disable language
 disableLanguages = []
 # google analytics
@@ -17,14 +17,14 @@ unsafe = true
 ############################# Default Parameters ##########################
 [params]
 # logo is for all page
-logo = ""
+logo = "images/logo.png"
 # logo white is for homepage logo, you can use colorful logo too...
 logo_white = ""
 # when logo is empty, it will shown your site title
 
 # OpenGraph / Twitter Card metadata
 description = "This is meta description"
-author = "Themefisher"
+author = "FrogHub"
 image = "images/logo.png" # this image will be used as fallback if a page has no image of its own
 
 # customize color
@@ -46,7 +46,7 @@ contact_form_action = "#" # contact form works with : https://formspree.io
 [[params.social]]
 icon = "ti-github" # themify icon pack : https://themify.me/themify-icons
 name = "Github"
-link = "https://github.com/zhoghub-io"
+link = "https://github.com/froghub-io"
   
 ################################ English Language ######################
 [Languages.en]
@@ -143,7 +143,7 @@ link = "contact/"
 
 ################## 中文 navigation #################
 [[Languages.zh.menu.main]]
-name = "Accueil"
+name = "HOME"
 url = "/"
 weight = 1
 
@@ -153,30 +153,30 @@ url = "faq/"
 weight = 2
 
 [[Languages.zh.menu.main]]
-name = "contact"
+name = "支持"
 url = "contact/"
 weight = 3
 
 # Dropdown menu
 [[Languages.zh.menu.main]]
 weight = 4
-name = "docs"
+name = "文档"
 hasChildren = true
 
   [[Languages.zh.menu.main]]
-  parent = "docs"
+  parent = "文档"
   name = "Installation"
   url = "installation/"
   weight = 1
 
   [[Languages.zh.menu.main]]
-  parent = "docs"
+  parent = "文档"
   name = "Billing and Pricing"
   url = "billing-pricing/"
   weight = 2
 
   [[Languages.zh.menu.main]]
-  parent = "docs"
+  parent = "文档"
   name = "Features"
   url = "features/"
   weight = 3
