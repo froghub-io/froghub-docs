@@ -1,0 +1,34 @@
+@media screen and (min-width: 992px){
+    .navbar {
+        height: 88px;
+    }
+
+    .navbar .container {
+        max-width: 100vw !important;
+        padding: 0 30px !important;
+    }
+    .p-lg-5 {
+        min-height: calc( 100vh - 88px );
+    }
+}
+.navbar-brand {
+    width: 256px;
+}
+.img-fluid {
+    height: 40px;
+    max-width: 240px !important;
+}
+
+.overlay::before {
+    background: transparent !important;
+}
+
+.lang-list {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: transparent !important;
+}
+
+.select-language{
+    overflow: visible;
+}

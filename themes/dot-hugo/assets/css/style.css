@@ -7,9 +7,13 @@ body {
   background-color: var(--body-color);
 }
 
+* {
+  font-family: 'Nunito Sans', Helvetica, Arial, Lucida, sans-serif;
+}
+
 P {
   color: var(--text-color);
-  font-size: 15px;
+  font-size: 16px;
 }
 
 h1,
@@ -19,14 +23,14 @@ h4,
 h5,
 h6 {
   color: var(--text-color-dark);
-  font-family: var(--font-family), sans-serif;
+  /*font-family: 'Nunito Sans', Helvetica, Arial, Lucida, sans-serif;*/
   font-weight: 700;
   line-height: 1.2;
 }
 
 h1,
 .h1 {
-  font-size: 45px;
+  font-size: 56px;
 }
 
 h2,
@@ -137,12 +141,12 @@ ul {
   list-style-type: none;
   margin: 0px;
   padding-left: 0;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 ol {
   padding-left: 20px;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 img {
@@ -307,8 +311,8 @@ pre {
 
 .navbar .nav-item .nav-link {
   text-transform: uppercase;
-  padding: 10px 15px !important;
-  font-size: 15px;
+  padding: 10px 16px !important;
+  font-size: 16px;
 }
 
 .navbar .dropdown:hover .dropdown-menu {
@@ -320,7 +324,7 @@ pre {
 
 .navbar .dropdown-menu {
   box-shadow: 0px 3px 9px 0px rgba(0, 0, 0, 0.12);
-  padding: 15px 0px;
+  padding: 16px 0px;
   border: 0;
   top: 40px;
   left: -35px;
@@ -483,7 +487,7 @@ pre {
 .ui-menu-item a {
   color: var(--text-color);
   padding: 8px 0;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .ui-menu-item a:hover {
@@ -526,7 +530,7 @@ textarea.form-control {
 }
 
 .shadow {
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.07) !important;
+  box-shadow: 0 5px 16px rgba(0, 0, 0, 0.07) !important;
   transition: .3s ease;
 }
 
@@ -548,7 +552,7 @@ textarea.form-control {
 .content img {
   max-width: 100%;
   height: auto;
-  margin: 0 auto 15px;
+  margin: 0 auto 16px;
   display: block;
   text-align: center;
 }
@@ -621,7 +625,7 @@ blockquote p {
 }
 
 .pagination i {
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.8;
 }
 
@@ -779,7 +783,7 @@ li.sidelist li a {
 .sidelist li a {
   color: var(--text-color-dark);
   display: block;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 500;
   padding: 10px 0;
   line-height: 1.4;
@@ -866,7 +870,7 @@ pre code::-webkit-scrollbar-thumb {
 }
 
 .code-tabs .tab-content {
-  padding: 20px 15px;
+  padding: 20px 16px;
   margin-bottom: 0;
 }
 
