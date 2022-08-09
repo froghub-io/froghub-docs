@@ -44,7 +44,7 @@
       <!-- Language List -->
       {{- if site.IsMultiLingual }}
       <select class="lang-list {{ if not .IsHome }}dark mb-3 mb-md-0{{ end }}" id="select-language"
-        onchange="location = this.value;">
+        onchange="location = this.value;" style="padding: 5px">
         {{ $siteLanguages := site.Languages}}
         {{ $pageLang := .Page.Lang}}
         {{ range .Page.AllTranslations }}

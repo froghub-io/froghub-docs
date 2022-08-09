@@ -1,14 +1,10 @@
 body {
   line-height: 1.5;
-  font-family: var(--font-family), sans-serif;
+  font-family: 'Nunito Sans', Helvetica, Arial, Lucida, sans-serif;
   -webkit-font-smoothing: antialiased;
   font-size: 17px;
   color: var(--text-color);
   background-color: var(--body-color);
-}
-
-* {
-  font-family: 'Nunito Sans', Helvetica, Arial, Lucida, sans-serif;
 }
 
 P {
@@ -61,7 +57,7 @@ h6,
 /* Button style */
 .btn {
   font-size: 14px;
-  font-family: var(--font-family), sans-serif;
+  font-family: 'Nunito Sans', Helvetica, Arial, Lucida, sans-serif;
   text-transform: uppercase;
   padding: 16px 44px;
   border-radius: 0px;
@@ -380,7 +376,7 @@ pre {
   position: relative;
   color: var(--text-color-dark);
   transition: .2s ease;
-  font-family: var(--font-family), sans-serif;
+  font-family: 'Nunito Sans', Helvetica, Arial, Lucida, sans-serif;
 }
 
 @media (max-width: 768px) {
