@@ -12,6 +12,20 @@ googleAnalytics = "" # paste your analytics ID here. (Ex: UA-123-45)
 # unsafe html
 [markup.goldmark.renderer]
 unsafe = true
+[markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ''
+    hl_inline = false
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    noHl = false
+    style = 'github'
+    tabWidth = 4
 
 
 ############################# Default Parameters ##########################
@@ -78,7 +92,7 @@ link = "contact/"
 ################## english navigation #################
 [[Languages.en.menu.main]]
 name = "Home"
-url = ""
+url = "https://www.froghub.io/"
 weight = 1
 
 [[Languages.en.menu.main]]
@@ -146,7 +160,7 @@ link = "contact/"
 ################## 中文 navigation #################
 [[Languages.zh.menu.main]]
 name = "HOME"
-url = "/"
+url = "https://www.froghub.io/"
 weight = 1
 
 [[Languages.zh.menu.main]]

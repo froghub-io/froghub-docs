@@ -34,4 +34,6 @@ froghub help
 
 To get a list of available sub-commands, arguments, and flags, run:
 
+```shell
 froghub [command] help
+```

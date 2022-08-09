@@ -10,13 +10,13 @@ keywords: ["cli"]
 Available CLI Commands
 To get a list of commands, run
 
-```base
+```shell
 froghub help
 ```
 
 To get a list of available sub-commands, arguments & flags run
 
-```base
+```shell
 froghub [command] help
 ```
 
