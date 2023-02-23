@@ -16,7 +16,7 @@ The WFIL contract is upgraded with minor changes referring to WETH10. The wrappe
 |Chain（ChainId）|Address|
 |:----|:----|
 |Mainnet（314）|Coming Soon...|
-|Hyperspace（3141）|0x123abc123abc123abc123abc123abc|
+|Hyperspace（3141）|0xAf6518f6F370D2f92df657299F7d910548Fb1205|
 
 ## Features Specifications
 
