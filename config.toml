@@ -61,13 +61,13 @@ contact_form_action = "#" # contact form works with : https://formspree.io
 icon = "ti-github" # themify icon pack : https://themify.me/themify-icons
 name = "Github"
 link = "https://github.com/froghub-io"
-  
+
 ################################ English Language ######################
 [Languages.en]
 languageName = "English"
 languageCode = "en-us"
 weight = 1
-copyright = "Copyright &copy; 2022 FrogHub All rights reserved."
+copyright = "Copyright &copy; 2023 FrogHub All rights reserved."
 
 # banner
 [Languages.en.params.banner]
@@ -113,21 +113,9 @@ hasChildren = true
 
   [[Languages.en.menu.main]]
   parent = "docs"
-  name = "Installation"
-  url = "installation/"
+  name = "WFIL"
+  url = "wfil/"
   weight = 1
-
-  [[Languages.en.menu.main]]
-  parent = "docs"
-  name = "Billing and Pricing"
-  url = "billing-pricing/"
-  weight = 2
-
-  [[Languages.en.menu.main]]
-  parent = "docs"
-  name = "Features"
-  url = "features/"
-  weight = 3
 
 
 ################################### 中文 Languages ######################
@@ -181,18 +169,7 @@ hasChildren = true
 
   [[Languages.zh.menu.main]]
   parent = "文档"
-  name = "Installation"
-  url = "installation/"
+  name = "WFIL"
+  url = "wfil"
   weight = 1
 
-  [[Languages.zh.menu.main]]
-  parent = "文档"
-  name = "Billing and Pricing"
-  url = "billing-pricing/"
-  weight = 2
-
-  [[Languages.zh.menu.main]]
-  parent = "文档"
-  name = "Features"
-  url = "features/"
-  weight = 3
