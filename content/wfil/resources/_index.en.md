@@ -10,7 +10,7 @@ keywords: ["wfil"]
 
 |resources||
 |:----|:----|
-|LOGO||
+|LOGO|![image example](logo.png "image")|
 |Website|https://wfil.io|
-|Slack||
+|Slack|https://froghub.slack.com|
 |Github|https://github.com/froghub-io/wfil|

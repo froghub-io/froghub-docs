@@ -62,6 +62,12 @@ icon = "ti-github" # themify icon pack : https://themify.me/themify-icons
 name = "Github"
 link = "https://github.com/froghub-io"
 
+[[params.social]]
+icon = "ti-email" # themify icon pack : https://themify.me/themify-icons
+name = "team@froghub.io"
+link = "team@froghub.io"
+
+
 ################################ English Language ######################
 [Languages.en]
 languageName = "English"

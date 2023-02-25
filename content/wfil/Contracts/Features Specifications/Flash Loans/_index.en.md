@@ -11,9 +11,9 @@ keywords: ["wfil"]
 
 This contract implements [EIP3156](https://eips.ethereum.org/EIPS/eip-3156) that allows to flashLoan an arbitrary amount of Wrapped FIL, unbacked by real FIL, with the condition that it is burned before the end of the transaction. No fees are charged.
 
-This function will call onFlashLoan on the calling address, receiving and passing along a bytes parameter which can be used by the calling contract to process the callback.
-
 This feature requires users to have the ability to write and publish smart contracts by themselves. By implementing the contract of IERC3156FlashBorrower to realize the callback of the method, you can refer to the following example:
+
+This function will call onFlashLoan on the calling address, receiving and passing along a bytes parameter which can be used by the calling contract to process the callback.
 
 ```
 // SPDX-License-Identifier: GPL-3.0-or-later
